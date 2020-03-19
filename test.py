@@ -23,6 +23,8 @@ if(string!=""):
                 longest=string[left:right+1]
             left-=1
             right+=1
+    if(maxlen==0):
+        exit(1)
     print(longest)
 else:
     exit(1)
